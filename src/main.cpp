@@ -10,13 +10,13 @@ volatile int curThrottle = 0, curTurn = 0;
 volatile int curLeftSpd = 0, curRightSpd = 0;
 volatile unsigned long pktCount = 0, lastPktTime = 0;
 uint8_t activeChannel = DEFAULT_CHANNEL;
-volatile bool ledOn = false;
+volatile bool ledOn = true;
 volatile uint8_t ledBrightness = LED_DEFAULT_BRIGHTNESS;
 
 void setup() {
   Serial.begin(115200);
   delay(1000);
-  Serial.println("\n===== LUN-E =====");
+  Serial.println("\n===== ZERO UTILITY VEHICLE =====");
 
   initDrive();
   Serial.println("[DRV] OK");
@@ -30,7 +30,7 @@ void setup() {
   initSleep();
   Serial.println("[PWR] OK");
 
-  Serial.println("[RDY] LUN-E online");
+  Serial.println("[RDY] ZUV online");
 }
 
 void loop() {

@@ -14,11 +14,11 @@
 #define LED_PIN          6
 #define LED_PWM_FREQ     5000
 #define LED_PWM_RES      8
-#define LED_DEFAULT_BRIGHTNESS 200
+#define LED_DEFAULT_BRIGHTNESS 255
 
 // ===== NETWORK =====
 #define DEFAULT_CHANNEL  6
-#define AP_SSID          "LUN-E"
+#define AP_SSID          "Zero Utility Vehicle"
 #define AP_PASS          "explorer123"
 
 // ===== SAFETY =====
