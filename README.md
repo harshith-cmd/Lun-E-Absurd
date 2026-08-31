@@ -1,4 +1,4 @@
-# Zero Utility Vehicle
+# Remotely Useless
 
 A remote-controlled rover with a WiFi joystick. No camera feed, no autonomy, no dialogue, no personality — just a joystick that drives the motors.
 
@@ -27,7 +27,7 @@ Built on the Seeed Studio XIAO ESP32-S3 Sense. The camera on the board is not us
 ## Using it
 
 1. Flash it, power it on.
-2. Connect to the `Zero Utility Vehicle` WiFi network (password: `explorer123`).
+2. Connect to the `Remotely Useless` WiFi network (password: `explorer123`).
 3. Open `http://192.168.4.1/`.
 4. Drag the joystick to drive.
 

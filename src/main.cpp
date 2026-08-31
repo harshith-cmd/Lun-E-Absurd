@@ -16,7 +16,7 @@ volatile uint8_t ledBrightness = LED_DEFAULT_BRIGHTNESS;
 void setup() {
   Serial.begin(115200);
   delay(1000);
-  Serial.println("\n===== ZERO UTILITY VEHICLE =====");
+  Serial.println("\n===== REMOTELY USELESS =====");
 
   initDrive();
   Serial.println("[DRV] OK");
@@ -30,7 +30,7 @@ void setup() {
   initSleep();
   Serial.println("[PWR] OK");
 
-  Serial.println("[RDY] ZUV online");
+  Serial.println("[RDY] Remotely Useless online");
 }
 
 void loop() {

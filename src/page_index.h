@@ -5,7 +5,7 @@ static const char PAGE_INDEX[] PROGMEM = R"HTML(<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title>Zero Utility Vehicle</title>
+<title>Remotely Useless</title>
 <style>
   html,body { margin:0; height:100%; background:#111; color:#eee;
               font-family:sans-serif; display:flex; flex-direction:column;
@@ -21,7 +21,7 @@ static const char PAGE_INDEX[] PROGMEM = R"HTML(<!DOCTYPE html>
 </style>
 </head>
 <body>
-<h1>ZUV</h1>
+<h1>Remotely Useless</h1>
 <div id="status">connecting...</div>
 <div id="stick"><div id="knob"></div></div>
 <script>

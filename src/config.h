@@ -18,7 +18,7 @@
 
 // ===== NETWORK =====
 #define DEFAULT_CHANNEL  6
-#define AP_SSID          "Zero Utility Vehicle"
+#define AP_SSID          "Remotely Useless"
 #define AP_PASS          "explorer123"
 
 // ===== SAFETY =====
